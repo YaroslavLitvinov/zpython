@@ -10,7 +10,8 @@ LINK="-T ${PLAT}/x86_64-nacl/lib64/ldscripts/elf64_nacl.x.static -melf64_nacl -m
 export PATH=${PATH}:${PLAT}/bin
 echo $PATH
 
-#configure cpython to be built statically, override LINKFORSHARED variable bu flags related to statically linked NaCl code
+#configure cpython to be built statically, also overrided LINKFORSHARED variable,
+#although rest variables has been set to link it statically by nacl-gcc
 PYTHONPATH="${SCRIPT_PATH}/Modules:${SCRIPT_PATH}/Lib:${SCRIPT_PATH}" \
 LINKFORSHARED="${LINK}" \
 CC="x86_64-nacl-gcc" \
@@ -25,8 +26,19 @@ LIBC="-lzglibc" \
 
 echo MAKE PYTHON
 
-make PYTHONHOME=${SCRIPT_PATH}:${SCRIPT_PATH}/Lib HOSTPYTHON=./hostpython HOSTPGEN=./Parser/hostpgen PATH=${PATH}:${PLAT}"/bin" CROSS_COMPILE="x86_64-nacl-" CROSS_COMPILE_TARGET=yes HOSTARCH=amd64-linux BUILDARCH=x86_64-linux-gnu
+make \
+PYTHONHOME=${SCRIPT_PATH}:${SCRIPT_PATH}/Lib \
+HOSTPYTHON=./hostpython \
+HOSTPGEN=./Parser/hostpgen \
+PATH=${PATH}:${PLAT}"/bin" \
+CROSS_COMPILE="x86_64-nacl-" \
+CROSS_COMPILE_TARGET=yes \
+HOSTARCH=amd64-linux \
+BUILDARCH=x86_64-linux-gnu
 
-#echo INSTALL PYTHON
+
+#copy python files into _install directory, all installed files should be accessible
+#in filesystem in order to run python on zerovm+zrt
+
 #make install HOSTPYTHON=./hostpython CROSS_COMPILE=ppc_6xx- CROSS_COMPILE_TARGET=yes prefix=~/Python-3.2.2/_install
 

@@ -2,7 +2,7 @@
 
 ./configure
 
-make python Parser/pgen
+make HOSTPGEN=./Parser/pgen python Parser/pgen
 
 mv python hostpython
 
