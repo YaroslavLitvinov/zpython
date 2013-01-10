@@ -7,12 +7,12 @@ export PATH=${PATH}:${NACL_TOOLCHAIN}/bin
 LINK="-s -static -T \
 ${NACL_TOOLCHAIN}/x86_64-nacl/lib64/ldscripts/elf64_nacl.x.static \
 -melf64_nacl -m64 \
-${ZRT_ROOT}/lib -lzrt -lfs -lstdc++ -lzglibc"
+-L${ZRT_ROOT}/lib -lzrt -lfs -lstdc++ -lzglibc"
 
 #configure cpython to be built statically, also overrided LINKFORSHARED variable,
 #although rest variables has been set to link it statically by nacl-gcc
 PYTHONPATH="${ZPYTHON_ROOT}/Modules:$${ZPYTHON_ROOT}/Lib:${ZPYTHON_ROOT}" \
-LINKFORSHARED="${LDFLAGS}" \
+LINKFORSHARED="${LINK}" \
 CC="x86_64-nacl-gcc" \
 CXX="x86_64-naclg++" \
 AR="x86_64-nacl-ar" \
