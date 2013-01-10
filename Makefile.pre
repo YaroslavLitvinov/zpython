@@ -64,7 +64,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 # Compiler options
 OPT=		-DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes
 BASECFLAGS=	
-CONFIGURE_CFLAGS=	-D__NACL__ -I/home/yaroslav/git/zrt/lib
+CONFIGURE_CFLAGS=	-I/home/yaroslav/git/zrt/lib
 CONFIGURE_CPPFLAGS=	
 CONFIGURE_LDFLAGS=	 -s -static -static-libgcc
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
@@ -80,7 +80,7 @@ NO_AS_NEEDED=	-Wl,--no-as-needed
 LDLAST=		
 SGI_ABI=	
 CCSHARED=	-fPIC
-LINKFORSHARED=	-T /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/x86_64-nacl/lib64/ldscripts/elf64_nacl.x.static -melf64_nacl -m64 -L/home/yaroslav/git/zrt/lib -lzrt -lfs -lstdc++ -lzglibc
+LINKFORSHARED=	-Xlinker -export-dynamic
 ARFLAGS=	rc
 # Extra C flags added for building the interpreter object files.
 CFLAGSFORSHARED=
@@ -151,7 +151,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--host=x86_64-nacl' '--build=x86_64-linux-gnu' '--prefix=/python' '--without-threads' '--enable-shared=no' 'build_alias=x86_64-linux-gnu' 'host_alias=x86_64-nacl' 'CC=x86_64-nacl-gcc' 'CFLAGS=-D__NACL__ -I/home/yaroslav/git/zrt/lib' 'LDFLAGS= -s -static -static-libgcc'
+CONFIG_ARGS=	 '--host=x86_64-nacl' '--build=x86_64-linux-gnu' '--prefix=/python' '--without-threads' '--enable-shared=no' 'build_alias=x86_64-linux-gnu' 'host_alias=x86_64-nacl' 'CC=x86_64-nacl-gcc' 'CFLAGS=-I/home/yaroslav/git/zrt/lib' 'LDFLAGS= -s -static -static-libgcc'
 
 
 # Subdirectories with code
@@ -392,6 +392,14 @@ LIBRARY_OBJS=	\
 
 #########################################################################
 # Rules
+
+#crosscompile part1: create Host executables
+host: HOSTPGEN=./Parser/pgen
+host: python Parser/pgen
+	mv python hostpython
+	mv Parser/pgen Parser/hostpgen
+	make distclean
+
 
 # Default target
 all:		build_all
