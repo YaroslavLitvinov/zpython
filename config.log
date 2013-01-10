@@ -80,23 +80,23 @@ x86_64-nacl-gcc: unrecognized option '-qversion'
 x86_64-nacl-gcc: no input files
 configure:3520: $? = 1
 configure:3540: checking whether the C compiler works
-configure:3562: x86_64-nacl-gcc -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
+configure:3562: x86_64-nacl-gcc -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
 configure:3566: $? = 0
 configure:3614: result: yes
 configure:3617: checking for C compiler default output file name
 configure:3619: result: a.out
 configure:3625: checking for suffix of executables
-configure:3632: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
+configure:3632: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
 configure:3636: $? = 0
 configure:3658: result: 
 configure:3680: checking whether we are cross compiling
 configure:3718: result: yes
 configure:3723: checking for suffix of object files
-configure:3745: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:3745: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:3749: $? = 0
 configure:3770: result: o
 configure:3774: checking whether we are using the GNU C compiler
-configure:3793: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:3793: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:3793: $? = 0
 configure:3802: result: yes
 configure:3811: checking whether x86_64-nacl-gcc accepts -g
@@ -104,13 +104,13 @@ configure:3831: x86_64-nacl-gcc -c -g  conftest.c >&5
 configure:3831: $? = 0
 configure:3872: result: yes
 configure:3889: checking for x86_64-nacl-gcc option to accept ISO C89
-configure:3953: x86_64-nacl-gcc  -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:3953: x86_64-nacl-gcc  -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:3953: $? = 0
 configure:3966: result: none needed
 configure:3989: checking for --with-cxx-main=<compiler>
 configure:4015: result: no
 configure:4175: checking for -Wl,--no-as-needed
-configure:4191: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc -Wl,--no-as-needed conftest.c  >&5
+configure:4191: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc -Wl,--no-as-needed conftest.c  >&5
 configure:4191: $? = 0
 configure:4193: result: yes
 configure:4212: checking how to run the C preprocessor
@@ -154,47 +154,47 @@ configure:4403: result: /bin/grep
 configure:4408: checking for egrep
 configure:4470: result: /bin/grep -E
 configure:4475: checking for ANSI C header files
-configure:4495: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4495: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4495: $? = 0
 configure:4579: result: yes
 configure:4592: checking for sys/types.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for sys/stat.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for stdlib.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for string.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for memory.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for strings.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for inttypes.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for stdint.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4592: checking for unistd.h
-configure:4592: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4592: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4592: $? = 0
 configure:4592: result: yes
 configure:4605: checking minix/config.h usability
-configure:4605: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4605: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:54:26: error: minix/config.h: No such file or directory
 configure:4605: $? = 1
 configure: failed program was:
@@ -283,7 +283,7 @@ configure:4605: result: no
 configure:4605: checking for minix/config.h
 configure:4605: result: no
 configure:4626: checking whether it is safe to define __EXTENSIONS__
-configure:4644: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4644: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4644: $? = 0
 configure:4651: result: yes
 configure:4675: checking for --with-suffix
@@ -297,7 +297,7 @@ configure:4795: result: $(PURIFY) $(MAINCC)
 configure:4804: checking for GNU ld
 configure:4816: result: yes
 configure:4819: checking for inline
-configure:4835: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:4835: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:4835: $? = 0
 configure:4843: result: inline
 configure:4869: checking for --enable-shared
@@ -321,13 +321,13 @@ configure:5430: result: /usr/bin/install -c
 configure:5456: checking for --with-pydebug
 configure:5475: result: no
 configure:5546: checking whether x86_64-nacl-gcc accepts and needs -fno-strict-aliasing
-configure:5567: x86_64-nacl-gcc -fno-strict-aliasing -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:5567: x86_64-nacl-gcc -fno-strict-aliasing -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:5567: $? = 0
-configure:5584: x86_64-nacl-gcc -fstrict-aliasing -c -D__NACL__ -I/home/yaroslav/git/zrt/lib -Werror -Wstrict-aliasing  conftest.c >&5
+configure:5584: x86_64-nacl-gcc -fstrict-aliasing -c -I/home/yaroslav/git/zrt/lib -Werror -Wstrict-aliasing  conftest.c >&5
 configure:5584: $? = 0
 configure:5605: result: no
 configure:5765: checking whether gcc supports ParseTuple __format__
-configure:5782: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib -Werror  conftest.c >&5
+configure:5782: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib -Werror  conftest.c >&5
 cc1: warnings being treated as errors
 conftest.c:28: error: 'PyArg_ParseTuple' is an unrecognized format function type
 configure:5782: $? = 1
@@ -382,7 +382,7 @@ configure:6034: result: no
 configure:6041: checking for ANSI C header files
 configure:6145: result: yes
 configure:6167: checking asm/types.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking asm/types.h presence
@@ -392,7 +392,7 @@ configure:6167: result: yes
 configure:6167: checking for asm/types.h
 configure:6167: result: yes
 configure:6167: checking conio.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:62:19: error: conio.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -497,7 +497,7 @@ configure:6167: result: no
 configure:6167: checking for conio.h
 configure:6167: result: no
 configure:6167: checking curses.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:62:20: error: curses.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -602,7 +602,7 @@ configure:6167: result: no
 configure:6167: checking for curses.h
 configure:6167: result: no
 configure:6167: checking direct.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:62:20: error: direct.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -707,7 +707,7 @@ configure:6167: result: no
 configure:6167: checking for direct.h
 configure:6167: result: no
 configure:6167: checking dlfcn.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking dlfcn.h presence
@@ -717,7 +717,7 @@ configure:6167: result: yes
 configure:6167: checking for dlfcn.h
 configure:6167: result: yes
 configure:6167: checking errno.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking errno.h presence
@@ -727,7 +727,7 @@ configure:6167: result: yes
 configure:6167: checking for errno.h
 configure:6167: result: yes
 configure:6167: checking fcntl.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking fcntl.h presence
@@ -737,7 +737,7 @@ configure:6167: result: yes
 configure:6167: checking for fcntl.h
 configure:6167: result: yes
 configure:6167: checking grp.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking grp.h presence
@@ -747,7 +747,7 @@ configure:6167: result: yes
 configure:6167: checking for grp.h
 configure:6167: result: yes
 configure:6167: checking ieeefp.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:66:20: error: ieeefp.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -860,7 +860,7 @@ configure:6167: result: no
 configure:6167: checking for ieeefp.h
 configure:6167: result: no
 configure:6167: checking io.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:66:16: error: io.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -973,7 +973,7 @@ configure:6167: result: no
 configure:6167: checking for io.h
 configure:6167: result: no
 configure:6167: checking langinfo.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking langinfo.h presence
@@ -983,7 +983,7 @@ configure:6167: result: yes
 configure:6167: checking for langinfo.h
 configure:6167: result: yes
 configure:6167: checking libintl.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking libintl.h presence
@@ -993,7 +993,7 @@ configure:6167: result: yes
 configure:6167: checking for libintl.h
 configure:6167: result: yes
 configure:6167: checking ncurses.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:68:21: error: ncurses.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -1110,7 +1110,7 @@ configure:6167: result: no
 configure:6167: checking for ncurses.h
 configure:6167: result: no
 configure:6167: checking poll.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking poll.h presence
@@ -1120,7 +1120,7 @@ configure:6167: result: yes
 configure:6167: checking for poll.h
 configure:6167: result: yes
 configure:6167: checking process.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:69:21: error: process.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -1239,7 +1239,7 @@ configure:6167: result: no
 configure:6167: checking for process.h
 configure:6167: result: no
 configure:6167: checking pthread.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking pthread.h presence
@@ -1249,7 +1249,7 @@ configure:6167: result: yes
 configure:6167: checking for pthread.h
 configure:6167: result: yes
 configure:6167: checking shadow.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking shadow.h presence
@@ -1259,7 +1259,7 @@ configure:6167: result: yes
 configure:6167: checking for shadow.h
 configure:6167: result: yes
 configure:6167: checking signal.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking signal.h presence
@@ -1271,7 +1271,7 @@ configure:6167: result: yes
 configure:6167: checking for stdint.h
 configure:6167: result: yes
 configure:6167: checking stropts.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking stropts.h presence
@@ -1281,7 +1281,7 @@ configure:6167: result: yes
 configure:6167: checking for stropts.h
 configure:6167: result: yes
 configure:6167: checking termios.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking termios.h presence
@@ -1291,7 +1291,7 @@ configure:6167: result: yes
 configure:6167: checking for termios.h
 configure:6167: result: yes
 configure:6167: checking thread.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:75:20: error: thread.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -1424,7 +1424,7 @@ configure:6167: result: no
 configure:6167: checking for unistd.h
 configure:6167: result: yes
 configure:6167: checking utime.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking utime.h presence
@@ -1434,7 +1434,7 @@ configure:6167: result: yes
 configure:6167: checking for utime.h
 configure:6167: result: yes
 configure:6167: checking sys/audioio.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:77:25: error: sys/audioio.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -1569,7 +1569,7 @@ configure:6167: result: no
 configure:6167: checking for sys/audioio.h
 configure:6167: result: no
 configure:6167: checking sys/bsdtty.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:77:24: error: sys/bsdtty.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -1704,7 +1704,7 @@ configure:6167: result: no
 configure:6167: checking for sys/bsdtty.h
 configure:6167: result: no
 configure:6167: checking sys/epoll.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/epoll.h presence
@@ -1714,7 +1714,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/epoll.h
 configure:6167: result: yes
 configure:6167: checking sys/event.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:78:23: error: sys/event.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -1851,7 +1851,7 @@ configure:6167: result: no
 configure:6167: checking for sys/event.h
 configure:6167: result: no
 configure:6167: checking sys/file.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/file.h presence
@@ -1861,7 +1861,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/file.h
 configure:6167: result: yes
 configure:6167: checking sys/loadavg.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:79:25: error: sys/loadavg.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -2000,7 +2000,7 @@ configure:6167: result: no
 configure:6167: checking for sys/loadavg.h
 configure:6167: result: no
 configure:6167: checking sys/lock.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:79:22: error: sys/lock.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -2139,7 +2139,7 @@ configure:6167: result: no
 configure:6167: checking for sys/lock.h
 configure:6167: result: no
 configure:6167: checking sys/mkdev.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:79:23: error: sys/mkdev.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -2278,7 +2278,7 @@ configure:6167: result: no
 configure:6167: checking for sys/mkdev.h
 configure:6167: result: no
 configure:6167: checking sys/modem.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:79:23: error: sys/modem.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -2417,7 +2417,7 @@ configure:6167: result: no
 configure:6167: checking for sys/modem.h
 configure:6167: result: no
 configure:6167: checking sys/param.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/param.h presence
@@ -2427,7 +2427,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/param.h
 configure:6167: result: yes
 configure:6167: checking sys/poll.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/poll.h presence
@@ -2437,7 +2437,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/poll.h
 configure:6167: result: yes
 configure:6167: checking sys/select.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/select.h presence
@@ -2447,7 +2447,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/select.h
 configure:6167: result: yes
 configure:6167: checking sys/socket.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/socket.h presence
@@ -2457,7 +2457,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/socket.h
 configure:6167: result: yes
 configure:6167: checking sys/statvfs.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/statvfs.h presence
@@ -2469,7 +2469,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/stat.h
 configure:6167: result: yes
 configure:6167: checking sys/termio.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:85:24: error: sys/termio.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -2620,7 +2620,7 @@ configure:6167: result: no
 configure:6167: checking for sys/termio.h
 configure:6167: result: no
 configure:6167: checking sys/time.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/time.h presence
@@ -2630,7 +2630,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/time.h
 configure:6167: result: yes
 configure:6167: checking sys/times.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/times.h presence
@@ -2642,7 +2642,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/types.h
 configure:6167: result: yes
 configure:6167: checking sys/un.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/un.h presence
@@ -2652,7 +2652,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/un.h
 configure:6167: result: yes
 configure:6167: checking sys/utsname.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/utsname.h presence
@@ -2662,7 +2662,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/utsname.h
 configure:6167: result: yes
 configure:6167: checking sys/wait.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/wait.h presence
@@ -2672,7 +2672,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/wait.h
 configure:6167: result: yes
 configure:6167: checking pty.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking pty.h presence
@@ -2682,7 +2682,7 @@ configure:6167: result: yes
 configure:6167: checking for pty.h
 configure:6167: result: yes
 configure:6167: checking libutil.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:92:21: error: libutil.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -2847,7 +2847,7 @@ configure:6167: result: no
 configure:6167: checking for libutil.h
 configure:6167: result: no
 configure:6167: checking sys/resource.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sys/resource.h presence
@@ -2857,7 +2857,7 @@ configure:6167: result: yes
 configure:6167: checking for sys/resource.h
 configure:6167: result: yes
 configure:6167: checking netpacket/packet.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking netpacket/packet.h presence
@@ -2867,7 +2867,7 @@ configure:6167: result: yes
 configure:6167: checking for netpacket/packet.h
 configure:6167: result: yes
 configure:6167: checking sysexits.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking sysexits.h presence
@@ -2877,7 +2877,7 @@ configure:6167: result: yes
 configure:6167: checking for sysexits.h
 configure:6167: result: yes
 configure:6167: checking bluetooth.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:95:23: error: bluetooth.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -3048,7 +3048,7 @@ configure:6167: result: no
 configure:6167: checking for bluetooth.h
 configure:6167: result: no
 configure:6167: checking bluetooth/bluetooth.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:95:33: error: bluetooth/bluetooth.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -3219,7 +3219,7 @@ configure:6167: result: no
 configure:6167: checking for bluetooth/bluetooth.h
 configure:6167: result: no
 configure:6167: checking linux/tipc.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:95:24: error: linux/tipc.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -3390,7 +3390,7 @@ configure:6167: result: no
 configure:6167: checking for linux/tipc.h
 configure:6167: result: no
 configure:6167: checking spawn.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6167: $? = 0
 configure:6167: result: yes
 configure:6167: checking spawn.h presence
@@ -3400,7 +3400,7 @@ configure:6167: result: yes
 configure:6167: checking for spawn.h
 configure:6167: result: yes
 configure:6167: checking util.h usability
-configure:6167: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6167: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:96:18: error: util.h: No such file or directory
 configure:6167: $? = 1
 configure: failed program was:
@@ -3573,19 +3573,19 @@ configure:6167: result: no
 configure:6167: checking for util.h
 configure:6167: result: no
 configure:6180: checking for dirent.h that defines DIR
-configure:6199: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6199: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6199: $? = 0
 configure:6207: result: yes
 configure:6220: checking for library containing opendir
-configure:6251: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
+configure:6251: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
 configure:6251: $? = 0
 configure:6268: result: none required
 configure:6335: checking whether sys/types.h defines makedev
-configure:6351: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
+configure:6351: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
 configure:6351: $? = 0
 configure:6360: result: yes
 configure:6389: checking for term.h
-configure:6389: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6389: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:70:18: error: term.h: No such file or directory
 configure:6389: $? = 1
 configure: failed program was:
@@ -3661,23 +3661,23 @@ configure: failed program was:
 | #include <term.h>
 configure:6389: result: no
 configure:6408: checking for linux/netlink.h
-configure:6408: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6408: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6408: $? = 0
 configure:6408: result: yes
 configure:6429: checking for clock_t in time.h
 configure:6448: result: yes
 configure:6452: checking for makedev
-configure:6475: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
+configure:6475: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c  >&5
 configure:6475: $? = 0
 configure:6511: result: yes
 configure:6527: checking Solaris LFS bug
-configure:6544: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6544: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6544: $? = 0
 configure:6550: result: no
 configure:6582: checking for mode_t
-configure:6582: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6582: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6582: $? = 0
-configure:6582: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6582: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:107: error: expected expression before ')' token
 configure:6582: $? = 1
@@ -3795,9 +3795,9 @@ configure: failed program was:
 | }
 configure:6582: result: yes
 configure:6593: checking for off_t
-configure:6593: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6593: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6593: $? = 0
-configure:6593: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6593: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:107: error: expected expression before ')' token
 configure:6593: $? = 1
@@ -3915,9 +3915,9 @@ configure: failed program was:
 | }
 configure:6593: result: yes
 configure:6604: checking for pid_t
-configure:6604: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6604: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6604: $? = 0
-configure:6604: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6604: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:107: error: expected expression before ')' token
 configure:6604: $? = 1
@@ -4035,9 +4035,9 @@ configure: failed program was:
 | }
 configure:6604: result: yes
 configure:6620: checking for size_t
-configure:6620: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6620: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6620: $? = 0
-configure:6620: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6620: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:108: error: expected expression before ')' token
 configure:6620: $? = 1
@@ -4158,17 +4158,17 @@ configure:6620: result: yes
 configure:6631: checking for uid_t in sys/types.h
 configure:6650: result: yes
 configure:6661: checking for uint32_t
-configure:6661: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6661: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6661: $? = 0
 configure:6661: result: yes
 configure:6675: checking for uint64_t
-configure:6675: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6675: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6675: $? = 0
 configure:6675: result: yes
 configure:6689: checking for int32_t
-configure:6689: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6689: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6689: $? = 0
-configure:6689: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6689: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:110: warning: integer overflow in expression
 conftest.c:110: error: size of array 'test_array' is negative
@@ -4291,9 +4291,9 @@ configure: failed program was:
 | }
 configure:6689: result: yes
 configure:6700: checking for int64_t
-configure:6700: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6700: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6700: $? = 0
-configure:6700: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6700: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:110: warning: integer overflow in expression
 conftest.c:110: error: size of array 'test_array' is negative
@@ -4416,9 +4416,9 @@ configure: failed program was:
 | }
 configure:6700: result: yes
 configure:6711: checking for ssize_t
-configure:6711: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6711: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6711: $? = 0
-configure:6711: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6711: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:108: error: expected expression before ')' token
 configure:6711: $? = 1
@@ -4537,9 +4537,9 @@ configure: failed program was:
 | }
 configure:6711: result: yes
 configure:6725: checking size of int
-configure:6730: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6730: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6730: $? = 0
-configure:6730: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6730: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:109: error: size of array 'test_array' is negative
 configure:6730: $? = 1
@@ -4658,7 +4658,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6730: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6730: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:109: error: size of array 'test_array' is negative
 configure:6730: $? = 1
@@ -4777,7 +4777,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6730: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6730: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:109: error: size of array 'test_array' is negative
 configure:6730: $? = 1
@@ -4896,17 +4896,17 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6730: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6730: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6730: $? = 0
-configure:6730: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6730: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6730: $? = 0
-configure:6730: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6730: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6730: $? = 0
 configure:6744: result: 4
 configure:6758: checking size of long
-configure:6763: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6763: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6763: $? = 0
-configure:6763: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6763: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:110: error: size of array 'test_array' is negative
 configure:6763: $? = 1
@@ -5026,7 +5026,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6763: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6763: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:110: error: size of array 'test_array' is negative
 configure:6763: $? = 1
@@ -5146,7 +5146,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6763: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6763: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:110: error: size of array 'test_array' is negative
 configure:6763: $? = 1
@@ -5266,17 +5266,17 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6763: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6763: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6763: $? = 0
-configure:6763: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6763: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6763: $? = 0
-configure:6763: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6763: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6763: $? = 0
 configure:6777: result: 4
 configure:6791: checking size of void *
-configure:6796: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6796: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6796: $? = 0
-configure:6796: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6796: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:111: error: size of array 'test_array' is negative
 configure:6796: $? = 1
@@ -5397,7 +5397,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6796: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6796: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:111: error: size of array 'test_array' is negative
 configure:6796: $? = 1
@@ -5518,7 +5518,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6796: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6796: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:111: error: size of array 'test_array' is negative
 configure:6796: $? = 1
@@ -5639,17 +5639,17 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6796: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6796: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6796: $? = 0
-configure:6796: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6796: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6796: $? = 0
-configure:6796: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6796: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6796: $? = 0
 configure:6810: result: 4
 configure:6824: checking size of short
-configure:6829: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6829: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6829: $? = 0
-configure:6829: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6829: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:112: error: size of array 'test_array' is negative
 configure:6829: $? = 1
@@ -5771,7 +5771,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6829: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6829: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:112: error: size of array 'test_array' is negative
 configure:6829: $? = 1
@@ -5893,15 +5893,15 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6829: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6829: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6829: $? = 0
-configure:6829: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6829: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6829: $? = 0
 configure:6843: result: 2
 configure:6857: checking size of float
-configure:6862: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6862: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6862: $? = 0
-configure:6862: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6862: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:113: error: size of array 'test_array' is negative
 configure:6862: $? = 1
@@ -6024,7 +6024,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6862: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6862: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:113: error: size of array 'test_array' is negative
 configure:6862: $? = 1
@@ -6147,7 +6147,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6862: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6862: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:113: error: size of array 'test_array' is negative
 configure:6862: $? = 1
@@ -6270,17 +6270,17 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6862: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6862: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6862: $? = 0
-configure:6862: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6862: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6862: $? = 0
-configure:6862: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6862: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6862: $? = 0
 configure:6876: result: 4
 configure:6890: checking size of double
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6895: $? = 0
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:114: error: size of array 'test_array' is negative
 configure:6895: $? = 1
@@ -6404,7 +6404,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:114: error: size of array 'test_array' is negative
 configure:6895: $? = 1
@@ -6528,7 +6528,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:114: error: size of array 'test_array' is negative
 configure:6895: $? = 1
@@ -6652,7 +6652,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:114: error: size of array 'test_array' is negative
 configure:6895: $? = 1
@@ -6776,19 +6776,19 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6895: $? = 0
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6895: $? = 0
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6895: $? = 0
-configure:6895: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6895: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6895: $? = 0
 configure:6909: result: 8
 configure:6923: checking size of fpos_t
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6928: $? = 0
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:115: error: size of array 'test_array' is negative
 configure:6928: $? = 1
@@ -6913,7 +6913,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:115: error: size of array 'test_array' is negative
 configure:6928: $? = 1
@@ -7038,7 +7038,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:115: error: size of array 'test_array' is negative
 configure:6928: $? = 1
@@ -7163,7 +7163,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:115: error: size of array 'test_array' is negative
 configure:6928: $? = 1
@@ -7288,7 +7288,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:115: error: size of array 'test_array' is negative
 configure:6928: $? = 1
@@ -7413,21 +7413,21 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6928: $? = 0
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6928: $? = 0
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6928: $? = 0
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6928: $? = 0
-configure:6928: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6928: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6928: $? = 0
 configure:6942: result: 16
 configure:6956: checking size of size_t
-configure:6961: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6961: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6961: $? = 0
-configure:6961: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6961: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:116: error: size of array 'test_array' is negative
 configure:6961: $? = 1
@@ -7553,7 +7553,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6961: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6961: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:116: error: size of array 'test_array' is negative
 configure:6961: $? = 1
@@ -7679,7 +7679,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6961: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6961: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:116: error: size of array 'test_array' is negative
 configure:6961: $? = 1
@@ -7805,17 +7805,17 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6961: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6961: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6961: $? = 0
-configure:6961: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6961: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6961: $? = 0
-configure:6961: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6961: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6961: $? = 0
 configure:6975: result: 4
 configure:6989: checking size of pid_t
-configure:6994: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6994: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6994: $? = 0
-configure:6994: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6994: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:117: error: size of array 'test_array' is negative
 configure:6994: $? = 1
@@ -7942,7 +7942,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6994: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6994: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:117: error: size of array 'test_array' is negative
 configure:6994: $? = 1
@@ -8069,7 +8069,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6994: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6994: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:117: error: size of array 'test_array' is negative
 configure:6994: $? = 1
@@ -8196,21 +8196,21 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:6994: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6994: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6994: $? = 0
-configure:6994: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6994: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6994: $? = 0
-configure:6994: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:6994: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:6994: $? = 0
 configure:7008: result: 4
 configure:7019: checking for long long support
-configure:7033: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7033: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7033: $? = 0
 configure:7042: result: yes
 configure:7049: checking size of long long
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7054: $? = 0
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:119: error: size of array 'test_array' is negative
 configure:7054: $? = 1
@@ -8339,7 +8339,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:119: error: size of array 'test_array' is negative
 configure:7054: $? = 1
@@ -8468,7 +8468,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:119: error: size of array 'test_array' is negative
 configure:7054: $? = 1
@@ -8597,7 +8597,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:119: error: size of array 'test_array' is negative
 configure:7054: $? = 1
@@ -8726,23 +8726,23 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7054: $? = 0
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7054: $? = 0
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7054: $? = 0
-configure:7054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7054: $? = 0
 configure:7068: result: 8
 configure:7080: checking for long double support
-configure:7094: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7094: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7094: $? = 0
 configure:7103: result: yes
 configure:7110: checking size of long double
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7115: $? = 0
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:121: error: size of array 'test_array' is negative
 configure:7115: $? = 1
@@ -8873,7 +8873,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:121: error: size of array 'test_array' is negative
 configure:7115: $? = 1
@@ -9004,7 +9004,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:121: error: size of array 'test_array' is negative
 configure:7115: $? = 1
@@ -9135,7 +9135,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:121: error: size of array 'test_array' is negative
 configure:7115: $? = 1
@@ -9266,23 +9266,23 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7115: $? = 0
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7115: $? = 0
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7115: $? = 0
-configure:7115: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7115: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7115: $? = 0
 configure:7129: result: 8
 configure:7142: checking for _Bool support
-configure:7156: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7156: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7156: $? = 0
 configure:7165: result: yes
 configure:7172: checking size of _Bool
-configure:7177: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7177: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7177: $? = 0
-configure:7177: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7177: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:123: error: size of array 'test_array' is negative
 configure:7177: $? = 1
@@ -9415,13 +9415,13 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7177: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7177: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7177: $? = 0
 configure:7191: result: 1
 configure:7203: checking for uintptr_t
-configure:7203: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7203: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7203: $? = 0
-configure:7203: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7203: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:98: error: expected expression before ')' token
 configure:7203: $? = 1
@@ -9530,9 +9530,9 @@ configure: failed program was:
 | }
 configure:7203: result: yes
 configure:7220: checking size of uintptr_t
-configure:7225: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7225: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7225: $? = 0
-configure:7225: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7225: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:125: error: size of array 'test_array' is negative
 configure:7225: $? = 1
@@ -9667,7 +9667,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7225: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7225: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:125: error: size of array 'test_array' is negative
 configure:7225: $? = 1
@@ -9802,7 +9802,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7225: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7225: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:125: error: size of array 'test_array' is negative
 configure:7225: $? = 1
@@ -9937,17 +9937,17 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7225: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7225: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7225: $? = 0
-configure:7225: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7225: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7225: $? = 0
-configure:7225: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7225: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7225: $? = 0
 configure:7239: result: 4
 configure:7256: checking size of off_t
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7261: $? = 0
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:99: error: size of array 'test_array' is negative
 configure:7261: $? = 1
@@ -10056,7 +10056,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:99: error: size of array 'test_array' is negative
 configure:7261: $? = 1
@@ -10165,7 +10165,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:99: error: size of array 'test_array' is negative
 configure:7261: $? = 1
@@ -10274,7 +10274,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:99: error: size of array 'test_array' is negative
 configure:7261: $? = 1
@@ -10383,21 +10383,21 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7261: $? = 0
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7261: $? = 0
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7261: $? = 0
-configure:7261: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7261: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7261: $? = 0
 configure:7280: result: 8
 configure:7291: checking whether to enable large file support
 configure:7300: result: yes
 configure:7315: checking size of time_t
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7320: $? = 0
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:104: error: size of array 'test_array' is negative
 configure:7320: $? = 1
@@ -10511,7 +10511,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:104: error: size of array 'test_array' is negative
 configure:7320: $? = 1
@@ -10625,7 +10625,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:104: error: size of array 'test_array' is negative
 configure:7320: $? = 1
@@ -10739,7 +10739,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:104: error: size of array 'test_array' is negative
 configure:7320: $? = 1
@@ -10853,23 +10853,23 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7320: $? = 0
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7320: $? = 0
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7320: $? = 0
-configure:7320: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7320: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7320: $? = 0
 configure:7342: result: 8
 configure:7363: checking for pthread_t
-configure:7379: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7379: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7379: $? = 0
 configure:7383: result: yes
 configure:7390: checking size of pthread_t
-configure:7395: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7395: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7395: $? = 0
-configure:7395: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7395: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:102: error: size of array 'test_array' is negative
 configure:7395: $? = 1
@@ -10981,7 +10981,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7395: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7395: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:102: error: size of array 'test_array' is negative
 configure:7395: $? = 1
@@ -11093,7 +11093,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7395: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7395: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:102: error: size of array 'test_array' is negative
 configure:7395: $? = 1
@@ -11205,11 +11205,11 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:7395: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7395: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7395: $? = 0
-configure:7395: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7395: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7395: $? = 0
-configure:7395: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:7395: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:7395: $? = 0
 configure:7414: result: 4
 configure:7518: checking for --enable-framework
@@ -11221,19 +11221,19 @@ configure:7704: result: $(CC) -shared
 configure:7710: checking CCSHARED
 configure:7744: result: -fPIC
 configure:7748: checking LINKFORSHARED
-configure:7796: result: -T /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/x86_64-nacl/lib64/ldscripts/elf64_nacl.x.static -melf64_nacl -m64 -L/home/yaroslav/git/zrt/lib -lzrt -lfs -lstdc++ -lzglibc
+configure:7796: result: -Xlinker -export-dynamic
 configure:7801: checking CFLAGSFORSHARED
 configure:7814: result: 
 configure:7826: checking SHLIBS
 configure:7832: result: $(LIBS)
 configure:7837: checking for dlopen in -ldl
-configure:7862: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl   >&5
-/tmp/cc4W7b4v.o: In function `main':
+configure:7862: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl   >&5
+/tmp/cc8eWugu.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:7862: $? = 0
 configure:7871: result: yes
 configure:7882: checking for shl_load in -ldld
-configure:7907: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldld  -ldl  >&5
+configure:7907: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldld  -ldl  >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -ldld
 collect2: ld returned 1 exit status
 configure:7907: $? = 1
@@ -11350,7 +11350,7 @@ configure: failed program was:
 | }
 configure:7916: result: no
 configure:7991: checking for textdomain in -lintl
-configure:8016: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lintl  -ldl  >&5
+configure:8016: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lintl  -ldl  >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lintl
 collect2: ld returned 1 exit status
 configure:8016: $? = 1
@@ -11467,8 +11467,8 @@ configure: failed program was:
 | }
 configure:8025: result: no
 configure:8072: checking for t_open in -lnsl
-configure:8097: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lnsl  -ldl  >&5
-/tmp/ccMXzDLK.o: In function `main':
+configure:8097: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lnsl  -ldl  >&5
+/tmp/cc9PPHTU.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `t_open'
 collect2: ld returned 1 exit status
 configure:8097: $? = 1
@@ -11585,7 +11585,7 @@ configure: failed program was:
 | }
 configure:8106: result: no
 configure:8112: checking for socket in -lsocket
-configure:8137: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lsocket -ldl  -ldl  >&5
+configure:8137: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lsocket -ldl  -ldl  >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lsocket
 collect2: ld returned 1 exit status
 configure:8137: $? = 1
@@ -11726,7 +11726,7 @@ configure:8417: result: no
 configure:8950: checking if --enable-ipv6 is specified
 configure:8971: result: no
 configure:9208: checking for OSX 10.5 SDK or later
-configure:9223: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9223: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:97:29: error: Carbon/Carbon.h: No such file or directory
 conftest.c: In function 'main':
 conftest.c:101: error: 'FSIORefNum' undeclared (first use in this function)
@@ -11850,8 +11850,8 @@ configure:9305: result: yes
 configure:9309: checking for --with-valgrind
 configure:9319: result: no
 configure:9344: checking for dlopen
-configure:9344: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccTsc4Pd.o: In function `main':
+configure:9344: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccajnxz7.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:9344: $? = 0
 configure:9344: result: yes
@@ -11860,7 +11860,7 @@ configure:9381: result: dynload_shlib.o
 configure:9393: checking MACHDEP_OBJS
 configure:9401: result: MACHDEP_OBJS
 configure:9421: checking for alarm
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:128: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -12003,8 +12003,8 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for accept4
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccwKiG2s.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/cccF2lJr.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `accept4'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -12148,48 +12148,48 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for setitimer
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getitimer
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for bind_textdomain_codeset
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for chown
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for clock
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for confstr
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for ctermid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for execv
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:130: warning: conflicting types for built-in function 'execv'
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for fchmod
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for fchown
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for fork
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:133: warning: conflicting types for built-in function 'fork'
 conftest.c:138: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
@@ -12343,15 +12343,15 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for fpathconf
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for ftime
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for ftruncate
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:140: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -12506,33 +12506,33 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for gai_strerror
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getgroups
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getlogin
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/lib/../lib64/libc.a(utmp_file.o): In function `updwtmp_file':
 /b/build/slave/lucid64-glibc/build/native_client/tools/SRC/glibc/login/../login/utmp_file.c:506: warning: warning: alarm is not implemented and will always fail
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getloadavg
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getpeername
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getpgid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getpid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:146: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -12693,53 +12693,53 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for getpriority
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getresuid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getresgid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getpwent
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cctk0Xzw.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccCctxct.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'getpwent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getspnam
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cc4Jzy7T.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccKk7xCY.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'getspnam' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getspent
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cc9JfEia.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccFrdFpj.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'getspent' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getsid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for getwd
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cceabI7V.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccpREveD.o: In function `main':
 conftest.c:(.text+0x1c): warning: the `getwd' function is dangerous and should not be used.
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for initgroups
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cclkbaJY.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/cciL5e1S.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'initgroups' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for kill
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:155: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -12909,11 +12909,11 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for killpg
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for lchmod
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:156: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -13084,48 +13084,48 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for lchown
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for lstat
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for mbrtowc
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for mkfifo
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for mknod
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for mktime
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for mremap
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for nice
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for pathconf
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for pause
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for plock
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccQrmqVG.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccDRAhSp.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `plock'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -13307,12 +13307,12 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for poll
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for pthread_init
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cc8VcJC6.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccxK21EP.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `pthread_init'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -13495,24 +13495,24 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for putenv
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for readlink
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for realpath
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for select
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for sem_open
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccdQRbw5.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccK8RQrS.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `sem_open'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -13699,8 +13699,8 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for sem_timedwait
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cc0IVYEb.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/cc8rntA6.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `sem_timedwait'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -13887,8 +13887,8 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for sem_getvalue
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccPOALet.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/cc0XPnLk.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `sem_getvalue'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -14075,8 +14075,8 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for sem_unlink
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccIq0VjE.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccLsNOTz.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `sem_unlink'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -14263,59 +14263,59 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for setegid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for seteuid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setgid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setlocale
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setregid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setreuid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setresuid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setresgid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setsid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setpgid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setpgrp
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setuid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for setvbuf
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for sigaction
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:184: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -14514,26 +14514,26 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for siginterrupt
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for sigrelse
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for snprintf
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:181: warning: conflicting types for built-in function 'snprintf'
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for strftime
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:182: warning: conflicting types for built-in function 'strftime'
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for strlcpy
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cckHDorq.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccC9mRJh.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `strlcpy'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -14737,49 +14737,49 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for sysconf
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for tcgetpgrp
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for tcsetpgrp
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for tempnam
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cc7CgJqm.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccVNMvvZ.o: In function `main':
 conftest.c:(.text+0x1c): warning: the use of `tempnam' is dangerous, better use `mkstemp'
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for timegm
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for times
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for tmpfile
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for tmpnam
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccye2429.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccWIY6VO.o: In function `main':
 conftest.c:(.text+0x1c): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for tmpnam_r
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccs8ewWr.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/cclmzd36.o: In function `main':
 conftest.c:(.text+0x1c): warning: the use of `tmpnam_r' is dangerous, better use `mkstemp'
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for truncate
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:197: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -14991,19 +14991,19 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for uname
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for unsetenv
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for utimes
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for waitpid
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:200: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9421: $? = 1
 configure: failed program was:
@@ -15218,28 +15218,28 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9421: checking for wait3
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for wait4
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for wcscoll
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for wcsftime
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for wcsxfrm
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9421: $? = 0
 configure:9421: result: yes
 configure:9421: checking for _getpty
-configure:9421: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccdvXs0v.o: In function `main':
+configure:9421: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccTyifC6.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `_getpty'
 collect2: ld returned 1 exit status
 configure:9421: $? = 1
@@ -15460,35 +15460,35 @@ configure: failed program was:
 | }
 configure:9421: result: no
 configure:9433: checking for chroot
-configure:9446: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9446: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9446: $? = 0
 configure:9450: result: yes
 configure:9458: checking for link
-configure:9471: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9471: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9471: $? = 0
 configure:9475: result: yes
 configure:9483: checking for symlink
-configure:9496: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9496: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9496: $? = 0
 configure:9500: result: yes
 configure:9508: checking for fchdir
-configure:9521: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9521: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9521: $? = 0
 configure:9525: result: yes
 configure:9533: checking for fsync
-configure:9546: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9546: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9546: $? = 0
 configure:9550: result: yes
 configure:9558: checking for fdatasync
-configure:9571: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9571: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9571: $? = 0
 configure:9575: result: yes
 configure:9583: checking for epoll
-configure:9596: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9596: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9596: $? = 0
 configure:9600: result: yes
 configure:9608: checking for kqueue
-configure:9624: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9624: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:186:23: error: sys/event.h: No such file or directory
 configure:9624: $? = 1
 configure: failed program was:
@@ -15688,7 +15688,7 @@ configure: failed program was:
 | }
 configure:9631: result: no
 configure:9642: checking for ctermid_r
-configure:9657: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9657: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:190: error: 'ctermid_r' undeclared (first use in this function)
 conftest.c:190: error: (Each undeclared identifier is reported only once
@@ -15890,28 +15890,28 @@ configure: failed program was:
 | }
 configure:9664: result: no
 configure:9670: checking for flock declaration
-configure:9687: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9687: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9687: $? = 0
 configure:9696: result: yes
 configure:9701: checking for flock
-configure:9701: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9701: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:9701: $? = 0
 configure:9701: result: yes
 configure:9759: checking for getpagesize
-configure:9774: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:9774: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:9774: $? = 0
 configure:9778: result: yes
 configure:9791: checking for true
 configure:9807: found /bin/true
 configure:9818: result: true
 configure:9831: checking for inet_aton in -lc
-configure:9856: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lc  -ldl  >&5
+configure:9856: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lc  -ldl  >&5
 configure:9856: $? = 0
 configure:9865: result: yes
 configure:9921: checking for chflags
 configure:9953: result: cross
 configure:9956: checking for chflags
-configure:9956: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:9956: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 conftest.c:214: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:9956: $? = 1
 configure: failed program was:
@@ -16142,8 +16142,8 @@ configure:9956: result: no
 configure:9970: checking for lchflags
 configure:10002: result: cross
 configure:10005: checking for lchflags
-configure:10005: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/ccMR0RwF.o: In function `main':
+configure:10005: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccmdkFak.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `lchflags'
 collect2: ld returned 1 exit status
 configure:10005: $? = 1
@@ -16373,7 +16373,7 @@ configure: failed program was:
 | }
 configure:10005: result: no
 configure:10028: checking for inflateCopy in -lz
-configure:10053: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lz  -ldl  >&5
+configure:10053: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lz  -ldl  >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lz
 collect2: ld returned 1 exit status
 configure:10053: $? = 1
@@ -16580,24 +16580,24 @@ configure: failed program was:
 | }
 configure:10062: result: no
 configure:10078: checking for hstrerror
-configure:10093: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:10093: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:10093: $? = 0
 configure:10097: result: yes
 configure:10107: checking for inet_aton
-configure:10125: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+configure:10125: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
 configure:10125: $? = 0
 configure:10129: result: yes
 configure:10139: checking for inet_pton
-configure:10157: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10157: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10157: $? = 0
 configure:10161: result: yes
 configure:10171: checking for setgroups
-configure:10189: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10189: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10189: $? = 0
 configure:10193: result: yes
 configure:10206: checking for openpty
-configure:10206: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
-/tmp/cccnlxQA.o: In function `main':
+configure:10206: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  >&5
+/tmp/ccxpk07e.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `openpty'
 collect2: ld returned 1 exit status
 configure:10206: $? = 1
@@ -16831,23 +16831,23 @@ configure: failed program was:
 | }
 configure:10206: result: no
 configure:10213: checking for openpty in -lutil
-configure:10238: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lutil  -ldl  >&5
+configure:10238: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lutil  -ldl  >&5
 configure:10238: $? = 0
 configure:10247: result: yes
 configure:10303: checking for forkpty
-configure:10303: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10303: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/lib/../lib64/libutil.a(forkpty.o): In function `forkpty':
 /b/build/slave/lucid64-glibc/build/native_client/tools/SRC/glibc/login/forkpty.c:38: warning: warning: fork is not implemented and will always fail
 configure:10303: $? = 0
 configure:10303: result: yes
 configure:10402: checking for memmove
-configure:10402: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10402: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 conftest.c:215: warning: conflicting types for built-in function 'memmove'
 configure:10402: $? = 0
 configure:10402: result: yes
 configure:10416: checking for fseek64
-configure:10416: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
-/tmp/ccqUrylr.o: In function `main':
+configure:10416: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+/tmp/ccLF4iL7.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `fseek64'
 collect2: ld returned 1 exit status
 configure:10416: $? = 1
@@ -17084,16 +17084,16 @@ configure: failed program was:
 | }
 configure:10416: result: no
 configure:10416: checking for fseeko
-configure:10416: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10416: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10416: $? = 0
 configure:10416: result: yes
 configure:10416: checking for fstatvfs
-configure:10416: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10416: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10416: $? = 0
 configure:10416: result: yes
 configure:10416: checking for ftell64
-configure:10416: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
-/tmp/cc4DyIpV.o: In function `main':
+configure:10416: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+/tmp/cccCkORP.o: In function `main':
 conftest.c:(.text+0x1c): undefined reference to `ftell64'
 collect2: ld returned 1 exit status
 configure:10416: $? = 1
@@ -17332,31 +17332,31 @@ configure: failed program was:
 | }
 configure:10416: result: no
 configure:10416: checking for ftello
-configure:10416: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10416: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10416: $? = 0
 configure:10416: result: yes
 configure:10416: checking for statvfs
-configure:10416: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10416: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10416: $? = 0
 configure:10416: result: yes
 configure:10426: checking for dup2
-configure:10426: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10426: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10426: $? = 0
 configure:10426: result: yes
 configure:10439: checking for getcwd
-configure:10439: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10439: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10439: $? = 0
 configure:10439: result: yes
 configure:10452: checking for strdup
-configure:10452: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10452: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 conftest.c:222: warning: conflicting types for built-in function 'strdup'
 configure:10452: $? = 0
 configure:10452: result: yes
 configure:10468: checking for getpgrp
-configure:10468: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10468: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10468: $? = 0
 configure:10468: result: yes
-configure:10484: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10484: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:205: error: too many arguments to function 'getpgrp'
 configure:10484: $? = 1
@@ -17571,7 +17571,7 @@ configure: failed program was:
 | }
 configure:10496: checking for setpgrp
 configure:10496: result: yes
-configure:10512: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10512: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:206: error: too many arguments to function 'setpgrp'
 configure:10512: $? = 1
@@ -17786,49 +17786,49 @@ configure: failed program was:
 |   return 0;
 | }
 configure:10524: checking for gettimeofday
-configure:10524: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10524: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10524: $? = 0
 configure:10524: result: yes
-configure:10540: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10540: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10540: $? = 0
 configure:10554: checking for major
-configure:10577: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10577: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10577: $? = 0
 configure:10582: result: yes
 configure:10596: checking for getaddrinfo
-configure:10614: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
-/tmp/ccr4pToZ.o: In function `main':
+configure:10614: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+/tmp/ccdmhxhI.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:10614: $? = 0
 configure:10621: result: yes
 configure:10625: checking getaddrinfo bug
 configure:10736: result: yes
 configure:10755: checking for getnameinfo
-configure:10755: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:10755: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:10755: $? = 0
 configure:10755: result: yes
 configure:10766: checking whether time.h and sys/time.h may both be included
-configure:10786: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10786: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10786: $? = 0
 configure:10793: result: yes
 configure:10801: checking whether struct tm is in sys/time.h or time.h
-configure:10821: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10821: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10821: $? = 0
 configure:10828: result: time.h
 configure:10836: checking for struct tm.tm_zone
-configure:10836: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10836: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10836: $? = 0
 configure:10836: result: yes
 configure:10903: checking for struct stat.st_rdev
-configure:10903: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10903: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10903: $? = 0
 configure:10903: result: yes
 configure:10913: checking for struct stat.st_blksize
-configure:10913: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10913: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10913: $? = 0
 configure:10913: result: yes
 configure:10923: checking for struct stat.st_flags
-configure:10923: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10923: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: 'struct stat' has no member named 'st_flags'
 configure:10923: $? = 1
@@ -18084,7 +18084,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:10923: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10923: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: 'struct stat' has no member named 'st_flags'
 configure:10923: $? = 1
@@ -18342,7 +18342,7 @@ configure: failed program was:
 | }
 configure:10923: result: no
 configure:10933: checking for struct stat.st_gen
-configure:10933: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10933: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: 'struct stat' has no member named 'st_gen'
 configure:10933: $? = 1
@@ -18598,7 +18598,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:10933: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10933: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: 'struct stat' has no member named 'st_gen'
 configure:10933: $? = 1
@@ -18856,7 +18856,7 @@ configure: failed program was:
 | }
 configure:10933: result: no
 configure:10943: checking for struct stat.st_birthtime
-configure:10943: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10943: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: 'struct stat' has no member named 'st_birthtime'
 configure:10943: $? = 1
@@ -19112,7 +19112,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:10943: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10943: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: 'struct stat' has no member named 'st_birthtime'
 configure:10943: $? = 1
@@ -19370,11 +19370,11 @@ configure: failed program was:
 | }
 configure:10943: result: no
 configure:10953: checking for struct stat.st_blocks
-configure:10953: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10953: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:10953: $? = 0
 configure:10953: result: yes
 configure:10974: checking for time.h that defines altzone
-configure:10991: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:10991: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:216: error: 'altzone' undeclared (first use in this function)
 conftest.c:216: error: (Each undeclared identifier is reported only once
@@ -19602,47 +19602,47 @@ configure: failed program was:
 | }
 configure:11000: result: no
 configure:11009: checking whether sys/select.h and sys/time.h may both be included
-configure:11026: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11026: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11026: $? = 0
 configure:11035: result: yes
 configure:11038: checking for addrinfo
-configure:11054: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11054: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11054: $? = 0
 configure:11062: result: yes
 configure:11070: checking for sockaddr_storage
-configure:11088: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11088: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11088: $? = 0
 configure:11096: result: yes
 configure:11106: checking whether char is unsigned
-configure:11124: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11124: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11124: $? = 0
 configure:11131: result: no
 configure:11138: checking for an ANSI C-conforming const
-configure:11203: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11203: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11203: $? = 0
 configure:11210: result: yes
 configure:11220: checking for working volatile
-configure:11233: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11233: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11233: $? = 0
 configure:11242: result: yes
 configure:11246: checking for working signed char
-configure:11259: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11259: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11259: $? = 0
 configure:11268: result: yes
 configure:11272: checking for prototypes
-configure:11285: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11285: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11285: $? = 0
 configure:11292: result: yes
 configure:11296: checking for variable length prototypes and stdarg.h
-configure:11319: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11319: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11319: $? = 0
 configure:11328: result: yes
 configure:11332: checking for socketpair
-configure:11348: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11348: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11348: $? = 0
 configure:11352: result: yes
 configure:11362: checking if sockaddr has sa_len member
-configure:11377: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11377: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:224: error: 'struct sockaddr' has no member named 'sa_len'
 configure:11377: $? = 1
@@ -19876,7 +19876,7 @@ configure: failed program was:
 | }
 configure:11384: result: no
 configure:11391: checking whether va_list is an array
-configure:11410: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11410: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:228: error: incompatible types when assigning to type 'va_list' from type 'struct __va_list_tag *'
 configure:11410: $? = 1
@@ -20114,17 +20114,17 @@ configure: failed program was:
 | }
 configure:11421: result: yes
 configure:11427: checking for gethostbyname_r
-configure:11427: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
-/tmp/ccfhrxBW.o: In function `main':
+configure:11427: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+/tmp/ccg4GKxL.o: In function `main':
 conftest.c:(.text+0x1c): warning: Using 'gethostbyname_r' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
 configure:11427: $? = 0
 configure:11427: result: yes
 configure:11432: checking gethostbyname_r with 6 args
-configure:11457: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib     conftest.c >&5
+configure:11457: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib     conftest.c >&5
 configure:11457: $? = 0
 configure:11464: result: yes
 configure:11580: checking for __fpu_control
-configure:11580: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:11580: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:11580: $? = 0
 configure:11580: result: yes
 configure:11634: checking for --with-fpectl
@@ -20140,91 +20140,91 @@ configure:11787: result: no
 configure:11800: checking whether C doubles are ARM mixed-endian IEEE 754 binary64
 configure:11833: result: no
 configure:11852: checking whether we can use gcc inline assembler to get and set x87 control word
-configure:11869: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11869: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11869: $? = 0
 configure:11875: result: yes
 configure:11889: checking for x87-style double rounding
 configure:11930: result: no
 configure:11949: checking for acosh
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:246: warning: conflicting types for built-in function 'acosh'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for asinh
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:247: warning: conflicting types for built-in function 'asinh'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for atanh
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:248: warning: conflicting types for built-in function 'atanh'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for copysign
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:249: warning: conflicting types for built-in function 'copysign'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for erf
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:250: warning: conflicting types for built-in function 'erf'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for erfc
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:251: warning: conflicting types for built-in function 'erfc'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for expm1
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:252: warning: conflicting types for built-in function 'expm1'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for finite
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:253: warning: conflicting types for built-in function 'finite'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11949: checking for gamma
-configure:11949: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11949: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:254: warning: conflicting types for built-in function 'gamma'
 configure:11949: $? = 0
 configure:11949: result: yes
 configure:11961: checking for hypot
-configure:11961: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11961: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:255: warning: conflicting types for built-in function 'hypot'
 configure:11961: $? = 0
 configure:11961: result: yes
 configure:11961: checking for lgamma
-configure:11961: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11961: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:256: warning: conflicting types for built-in function 'lgamma'
 configure:11961: $? = 0
 configure:11961: result: yes
 configure:11961: checking for log1p
-configure:11961: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11961: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:257: warning: conflicting types for built-in function 'log1p'
 configure:11961: $? = 0
 configure:11961: result: yes
 configure:11961: checking for round
-configure:11961: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11961: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:258: warning: conflicting types for built-in function 'round'
 configure:11961: $? = 0
 configure:11961: result: yes
 configure:11961: checking for tgamma
-configure:11961: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
+configure:11961: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil -lm >&5
 conftest.c:259: warning: conflicting types for built-in function 'tgamma'
 configure:11961: $? = 0
 configure:11961: result: yes
 configure:11970: checking whether isinf is declared
-configure:11970: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11970: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11970: $? = 0
 configure:11970: result: yes
 configure:11981: checking whether isnan is declared
-configure:11981: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11981: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11981: $? = 0
 configure:11981: result: yes
 configure:11992: checking whether isfinite is declared
-configure:11992: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:11992: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:11992: $? = 0
 configure:11992: result: yes
 configure:12007: checking whether tanh preserves the sign of zero
@@ -20234,8 +20234,8 @@ configure:12090: result: no
 configure:12107: checking whether POSIX semaphores are enabled
 configure:12148: result: yes
 configure:12158: checking for broken sem_getvalue
-configure:12191: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
-/tmp/ccj8jwKa.o: In function `main':
+configure:12191: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+/tmp/ccAQztBG.o: In function `main':
 conftest.c:(.text+0x3c): undefined reference to `sem_open'
 conftest.c:(.text+0x9c): undefined reference to `sem_getvalue'
 conftest.c:(.text+0xbc): undefined reference to `sem_close'
@@ -20509,7 +20509,7 @@ configure:12203: result: yes
 configure:12213: checking digit size for Python's longs
 configure:12236: result: no value specified
 configure:12242: checking wchar.h usability
-configure:12242: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12242: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:12242: $? = 0
 configure:12242: result: yes
 configure:12242: checking wchar.h presence
@@ -20519,9 +20519,9 @@ configure:12242: result: yes
 configure:12242: checking for wchar.h
 configure:12242: result: yes
 configure:12264: checking size of wchar_t
-configure:12269: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12269: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:12269: $? = 0
-configure:12269: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12269: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: size of array 'test_array' is negative
 configure:12269: $? = 1
@@ -20778,7 +20778,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12269: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12269: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: size of array 'test_array' is negative
 configure:12269: $? = 1
@@ -21035,7 +21035,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12269: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12269: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:247: error: size of array 'test_array' is negative
 configure:12269: $? = 1
@@ -21292,15 +21292,15 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12269: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12269: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:12269: $? = 0
-configure:12269: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12269: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:12269: $? = 0
-configure:12269: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12269: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:12269: $? = 0
 configure:12284: result: 4
 configure:12296: checking for UCS-4 tcl
-configure:12314: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12314: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:244:17: error: tcl.h: No such file or directory
 conftest.c:246:3: error: #error "NOT UCS4_TCL"
 configure:12314: $? = 1
@@ -21565,7 +21565,7 @@ configure:12361: result: yes
 configure:12365: checking what type to use for str
 configure:12422: result: unsigned short
 configure:12426: checking whether byte ordering is bigendian
-configure:12441: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12441: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:246: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'a'
 configure:12441: $? = 1
 configure: failed program was:
@@ -21818,9 +21818,9 @@ configure: failed program was:
 | 	     #endif
 | 	     typedef int dummy;
 | 
-configure:12486: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12486: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:12486: $? = 0
-configure:12504: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:12504: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:252: error: 'not' undeclared (first use in this function)
 conftest.c:252: error: (Each undeclared identifier is reported only once
@@ -22097,11 +22097,11 @@ configure:12712: result: .cpython-32m.so
 configure:12717: checking whether right shift extends the sign bit
 configure:12746: result: yes
 configure:12756: checking for getc_unlocked() and friends
-configure:12778: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:12778: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 configure:12778: $? = 0
 configure:12787: result: yes
 configure:12804: checking how to link readline libs
-configure:12831: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -ldl  -lutil >&5
+configure:12831: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:12831: $? = 1
@@ -22366,7 +22366,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12831: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lncursesw -ldl  -lutil >&5
+configure:12831: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lncursesw -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:12831: $? = 1
@@ -22631,7 +22631,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12831: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lncurses -ldl  -lutil >&5
+configure:12831: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lncurses -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:12831: $? = 1
@@ -22896,7 +22896,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12831: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lcurses -ldl  -lutil >&5
+configure:12831: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lcurses -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:12831: $? = 1
@@ -23161,7 +23161,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12831: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -ltermcap -ldl  -lutil >&5
+configure:12831: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -ltermcap -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:12831: $? = 1
@@ -23428,7 +23428,7 @@ configure: failed program was:
 | }
 configure:12843: result: none
 configure:12854: checking for rl_callback_handler_install in -lreadline
-configure:12879: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
+configure:12879: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:12879: $? = 1
@@ -23945,7 +23945,7 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <readline/readline.h>
 configure:12940: checking for rl_pre_input_hook in -lreadline
-configure:12965: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
+configure:12965: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:12965: $? = 1
@@ -24212,7 +24212,7 @@ configure: failed program was:
 | }
 configure:12974: result: no
 configure:12984: checking for rl_completion_display_matches_hook in -lreadline
-configure:13009: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
+configure:13009: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:13009: $? = 1
@@ -24479,7 +24479,7 @@ configure: failed program was:
 | }
 configure:13018: result: no
 configure:13028: checking for rl_completion_matches in -lreadline
-configure:13053: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
+configure:13053: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -lreadline -lreadline -ltermcap -lreadline -ltermcap -ldl  -lutil >&5
 /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/bin/../lib/gcc/x86_64-nacl/4.4.3/../../../../x86_64-nacl/bin/ld: cannot find -lreadline
 collect2: ld returned 1 exit status
 configure:13053: $? = 1
@@ -25004,11 +25004,11 @@ configure:13197: result: yes
 configure:13266: checking for working tzset()
 configure:13353: result: no
 configure:13363: checking for tv_nsec in struct stat
-configure:13382: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13382: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:13382: $? = 0
 configure:13390: result: yes
 configure:13400: checking for tv_nsec2 in struct stat
-configure:13419: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13419: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:255: error: 'struct stat' has no member named 'st_mtimespec'
 configure:13419: $? = 1
@@ -25274,7 +25274,7 @@ configure: failed program was:
 | }
 configure:13427: result: no
 configure:13437: checking whether mvwdelch is an expression
-configure:13456: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13456: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:249:20: error: curses.h: No such file or directory
 configure:13456: $? = 1
 configure: failed program was:
@@ -25539,7 +25539,7 @@ configure: failed program was:
 | }
 configure:13464: result: no
 configure:13474: checking whether WINDOW has _flags
-configure:13493: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13493: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:249:20: error: curses.h: No such file or directory
 conftest.c: In function 'main':
 conftest.c:254: error: 'WINDOW' undeclared (first use in this function)
@@ -25809,7 +25809,7 @@ configure: failed program was:
 | }
 configure:13501: result: no
 configure:13512: checking for is_term_resized
-configure:13525: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13525: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:249:20: error: curses.h: No such file or directory
 conftest.c: In function 'main':
 conftest.c:253: error: 'is_term_resized' undeclared (first use in this function)
@@ -26075,7 +26075,7 @@ configure: failed program was:
 | }
 configure:13532: result: no
 configure:13538: checking for resize_term
-configure:13551: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13551: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:249:20: error: curses.h: No such file or directory
 conftest.c: In function 'main':
 conftest.c:253: error: 'resize_term' undeclared (first use in this function)
@@ -26341,7 +26341,7 @@ configure: failed program was:
 | }
 configure:13558: result: no
 configure:13564: checking for resizeterm
-configure:13577: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13577: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c:249:20: error: curses.h: No such file or directory
 conftest.c: In function 'main':
 conftest.c:253: error: 'resizeterm' undeclared (first use in this function)
@@ -26615,9 +26615,9 @@ configure:13676: result: yes
 configure:13692: checking for %zd printf() format support
 configure:13750: result: cross -- assuming yes
 configure:13758: checking for socklen_t
-configure:13758: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13758: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 configure:13758: $? = 0
-configure:13758: x86_64-nacl-gcc -c -D__NACL__ -I/home/yaroslav/git/zrt/lib  conftest.c >&5
+configure:13758: x86_64-nacl-gcc -c -I/home/yaroslav/git/zrt/lib  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:264: error: expected expression before ')' token
 configure:13758: $? = 1
@@ -26898,7 +26898,7 @@ configure:13850: result: no
 configure:13860: checking for --with-computed-gotos
 configure:13884: result: no value specified
 configure:13901: checking for pipe2
-configure:13901: x86_64-nacl-gcc -o conftest -D__NACL__ -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
+configure:13901: x86_64-nacl-gcc -o conftest -I/home/yaroslav/git/zrt/lib   -s -static -static-libgcc conftest.c -ldl  -lutil >&5
 conftest.c:280: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
 configure:13901: $? = 1
 configure: failed program was:
@@ -27211,12 +27211,12 @@ generated by GNU Autoconf 2.68.  Invocation command line was
 
 on yarik-asus-ubuntu
 
-config.status:1137: creating Makefile.pre
-config.status:1137: creating Modules/Setup.config
-config.status:1137: creating Misc/python.pc
-config.status:1137: creating Modules/ld_so_aix
-config.status:1137: creating pyconfig.h
-config.status:1312: pyconfig.h is unchanged
+config.status:1136: creating Makefile.pre
+config.status:1136: creating Modules/Setup.config
+config.status:1136: creating Misc/python.pc
+config.status:1136: creating Modules/ld_so_aix
+config.status:1136: creating pyconfig.h
+config.status:1311: pyconfig.h is unchanged
 
 ## ---------------- ##
 ## Cache variables. ##
@@ -27242,7 +27242,7 @@ ac_cv_cxx_thread=no
 ac_cv_env_CC_set=set
 ac_cv_env_CC_value=x86_64-nacl-gcc
 ac_cv_env_CFLAGS_set=set
-ac_cv_env_CFLAGS_value='-D__NACL__ -I/home/yaroslav/git/zrt/lib'
+ac_cv_env_CFLAGS_value=-I/home/yaroslav/git/zrt/lib
 ac_cv_env_CPPFLAGS_set=
 ac_cv_env_CPPFLAGS_value=
 ac_cv_env_CPP_set=
@@ -27565,10 +27565,10 @@ BLDSHARED='$(CC) -shared'
 BUILDEXEEXT=''
 CC='x86_64-nacl-gcc'
 CCSHARED='-fPIC'
-CFLAGS='-D__NACL__ -I/home/yaroslav/git/zrt/lib'
+CFLAGS='-I/home/yaroslav/git/zrt/lib'
 CFLAGSFORSHARED=''
 CONFIGURE_MACOSX_DEPLOYMENT_TARGET=''
-CONFIG_ARGS=' '\''--host=x86_64-nacl'\'' '\''--build=x86_64-linux-gnu'\'' '\''--prefix=/python'\'' '\''--without-threads'\'' '\''--enable-shared=no'\'' '\''build_alias=x86_64-linux-gnu'\'' '\''host_alias=x86_64-nacl'\'' '\''CC=x86_64-nacl-gcc'\'' '\''CFLAGS=-D__NACL__ -I/home/yaroslav/git/zrt/lib'\'' '\''LDFLAGS= -s -static -static-libgcc'\'''
+CONFIG_ARGS=' '\''--host=x86_64-nacl'\'' '\''--build=x86_64-linux-gnu'\'' '\''--prefix=/python'\'' '\''--without-threads'\'' '\''--enable-shared=no'\'' '\''build_alias=x86_64-linux-gnu'\'' '\''host_alias=x86_64-nacl'\'' '\''CC=x86_64-nacl-gcc'\'' '\''CFLAGS=-I/home/yaroslav/git/zrt/lib'\'' '\''LDFLAGS= -s -static -static-libgcc'\'''
 CPP='x86_64-nacl-gcc -E'
 CPPFLAGS=''
 CXX='x86_64-naclg++'
@@ -27620,7 +27620,7 @@ LIBRARY='libpython$(VERSION)$(ABIFLAGS).a'
 LIBS='-ldl  -lutil'
 LIBTOOL_CRUFT=''
 LINKCC='$(PURIFY) $(MAINCC)'
-LINKFORSHARED='-T /home/yaroslav/nacl_sdk/pepper_23/toolchain/linux_x86_glibc/x86_64-nacl/lib64/ldscripts/elf64_nacl.x.static -melf64_nacl -m64 -L/home/yaroslav/git/zrt/lib -lzrt -lfs -lstdc++ -lzglibc'
+LINKFORSHARED='-Xlinker -export-dynamic'
 LIPO_32BIT_FLAGS=''
 LN='ln'
 LTLIBOBJS=''

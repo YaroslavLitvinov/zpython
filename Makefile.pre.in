@@ -393,6 +393,14 @@ LIBRARY_OBJS=	\
 #########################################################################
 # Rules
 
+#crosscompile part1: create Host executables
+host: HOSTPGEN=./Parser/pgen
+host: python Parser/pgen
+	mv python hostpython
+	mv Parser/pgen Parser/hostpgen
+	make distclean
+
+
 # Default target
 all:		build_all
 build_all:	$(BUILDPYTHON) oldsharedmods sharedmods gdbhooks Modules/_testembed
