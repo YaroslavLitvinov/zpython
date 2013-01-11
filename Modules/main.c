@@ -525,10 +525,6 @@ Py_Main(int argc, wchar_t **argv)
 #endif
     }
 
-#ifdef __native_client__
-    fwprintf(stderr, L"DEBUG: filename=%s\n", filename);
-#endif
-
     stdin_is_interactive = Py_FdIsInteractive(stdin, (char *)0);
 
 #if defined(MS_WINDOWS) || defined(__CYGWIN__)
@@ -694,9 +690,6 @@ Py_Main(int argc, wchar_t **argv)
 
         if (sts == -1){
             sts = run_file(fp, filename, &cf);
-#ifdef __native_client__
-	    fwprintf(stderr, L"DEBUG: run_file, sts=%d\n", sts);
-#endif
 	}
     }
 
